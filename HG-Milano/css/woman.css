@@ -150,6 +150,18 @@ body {
     z-index: 8000;
 }
 
+@media only screen and (max-width: 728px) {
+    .nav {
+      left: -100%;
+    }
+  }
+
+  @media only screen and (max-width: 728px) {
+    .nav.active {
+      width: 100%;
+    }
+  }
+
 .nav ul {
     position: absolute;
     top: 40%;
@@ -246,7 +258,11 @@ body {
     cursor: pointer;
     transition: all 0.2s;
 }
-
+@media only screen and (max-width: 1047px) {
+    .nav ul li a {
+      font-size: 2.8rem;
+    }
+  }
 /* .nav ul li a:hover {
   color: rgba(129, 119, 96, 0.568);
 } */
@@ -391,7 +407,29 @@ body {
     justify-content: center;
     padding: 4rem;
 }
+/*------------------------------------------------------------------*/
+.grid-hero {
+    background-color: #fff;
+    min-height:100vh ;
+    max-width: 144rem;
+    margin: 0 auto;
+    /* max-width: 144rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 4rem 0; 
+}
 
+.grid-img {
+    width: 40rem;
+    height: 40rem;
+}
+
+.box {
+    margin: 1rem;
+    box-shadow: var(--shadow-light);
+}
 /* --------------- ------ ---------------- */
 
 .appointment {
