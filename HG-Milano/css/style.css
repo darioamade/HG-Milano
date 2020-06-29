@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://use.typekit.net/gjj4kxq.css");
 :root {
   --primaryColor: #76c1e4;
   --mainWhite: #fff;
@@ -441,16 +442,18 @@ body {
 }
 
 .section-title h2 {
-  font-size: 5.5vw;
+  font-family: condor, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.5vw;
   line-height: 2;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
   text-align: center;
-  font-size: 3.5rem;
   letter-spacing: 5px;
   margin-bottom: 5rem;
   text-transform: uppercase;
   white-space: pre-wrap;
+
+ 
 }
 
 .products-center {
@@ -603,7 +606,7 @@ body {
 
 .cart-item img {
   width: 75px;
-  height: 75px;
+  height: 95px;
 }
 
 .cart-item h4 {
@@ -735,7 +738,6 @@ a {
   background-attachment: fixed;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #ddd;
 }
 
 @media screen and (max-width: 1152px) {
@@ -758,7 +760,6 @@ a {
   align-items: center;
   cursor: pointer;
   padding: 2rem;
-  border: 1px solid #ddd;
 }
 
 
@@ -782,8 +783,7 @@ a {
 @media only screen and (max-width: 768px){
   .factor-txt {
     margin-bottom: 2rem;
-    border: 1px solid #ddd;
-  }
+    }
 }
 
 .title-3, .title-4 {
@@ -997,6 +997,13 @@ footer {
   font-weight: 300;
   font-family: sans-serif;
   align-items: center;
+  margin: 1rem;
+}
+
+@media only screen and (max-width:768px){
+  .footer-link {
+    font-size: 1.6rem;
+  }
 }
 
 .footer-icons {

@@ -967,7 +967,14 @@ footer {
     font-weight: 300;
     font-family: sans-serif;
     align-items: center;
-}
+    margin: 1rem;
+  }
+  
+  @media only screen and (max-width:768px){
+    .footer-link {
+      font-size: 1.6rem;
+    }
+  }
 
 .footer-icons {
     flex: 1;
