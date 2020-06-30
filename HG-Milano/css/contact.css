@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://use.typekit.net/gjj4kxq.css");
 :root {
     --primaryColor: #76c1e4;
     --mainWhite: #fff;
@@ -393,17 +394,17 @@ body {
 }
 
 .section-title h2 {
-    font-size: 5.5vw;
+    font-family: condor, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4.5vw;
     line-height: 2;
-    font-family: Arial, sans-serif;
-    font-weight: 700;
     text-align: center;
-    font-size: 3.5rem;
     letter-spacing: 5px;
     margin-bottom: 5rem;
     text-transform: uppercase;
     white-space: pre-wrap;
-}
+  }
 
 .products-center {
     width: 90vw;
