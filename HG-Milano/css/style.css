@@ -367,7 +367,7 @@ body {
 
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("/images/img/hero.jpg") center/cover no-repeat;
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.2)),to(rgba(0, 0, 0, 0.2))),url("/images/img/hero.jpg") center/cover no-repeat;
   display: flex;
   /*  align-items: center; */
   justify-content: center;
@@ -391,7 +391,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.banner-btn {
+.banner-btn  {
   padding: 1.5rem 8rem;
   font-size: 1.6rem;
   background: #fff;
@@ -402,10 +402,14 @@ body {
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
   cursor: pointer;
+  
   text-transform: uppercase;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   transition: var(--mainTransition);
+
 }
+
+
 
 @media only screen and (max-width: 531px) {
   .banner-btn {
@@ -477,6 +481,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
+ 
 }
 
 .img-container {

@@ -71,6 +71,14 @@
         "price": 99.99,
         "image": { "fields": { "file": { "url": "./images/product-10.jpg" } } }
       }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "FLOWING SHIRT ",
+        "price": 19.99,
+        "image": { "fields": { "file": { "url": "./images/product-11.jpg" } } }
+      }
     }
   ]
 }
