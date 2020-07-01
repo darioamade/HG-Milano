@@ -54,7 +54,6 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-
 /* --------------- Navbar ---------------- */
 
 .navbar {
@@ -352,6 +351,36 @@ body {
   letter-spacing: 4px;
   margin-bottom: 0.5rem;
 }
+#title-1 {
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 4.4rem;
+  letter-spacing: 4px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width:1034px) {
+  #title-1 {
+    font-size: 3.4rem;
+  }
+}
+@media only screen and (max-width:854px) {
+  #title-1 {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width:674px) {
+  #title-1 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width:396px) {
+  #title-1 {
+    font-size: 1.4rem;
+  }
+}
+
 
 .banner-btn {
   padding: 1.5rem 8rem;
@@ -372,7 +401,7 @@ body {
 
 @media only screen and (max-width: 531px) {
   .banner-btn {
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 4rem;
     font-size: 1.4rem;
     font-weight: 500;
   }
@@ -559,7 +588,7 @@ body {
 
 .hero-2 {
   min-height: calc(100vh - 60px);
-  background: url("/images/img/40.jpg") center/cover no-repeat;
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.2)),to(rgba(0, 0, 0, 0.2))),url("/images/img/40.jpg") center/cover no-repeat;
   display: flex;
   /*  align-items: center; */
   justify-content: center;
@@ -568,65 +597,12 @@ body {
 
 .hero-3 {
   min-height: calc(100vh - 60px);
-  background: url("/images/img/23.jpg") center/cover no-repeat;
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.2)),to(rgba(0, 0, 0, 0.2))),url("/images/img/23.jpg") center/cover no-repeat;
   display: flex;
   /*  align-items: center; */
   justify-content: center;
   padding: 4rem;
 }
-/* --------------- ------ ---------------- */
-
-.appointment {
-  background-color: var(--color-primary);
-  background-image: url(/images/img/17.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  background-color: var(--color-primary);
-  transition: all 0.2s;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-#mmm {
-  color: red;
-}
-
-.btn:hover,
-.btn :active {
-  background-color: black;
-}
-
-.btn {
-  padding: 1.5rem 6rem;
-  font-weight: 400;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  color: #000;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 4rem;
-  box-shadow: var(--shadow-light);
-}
-
-.btn:hover {
-  color: rgb(255, 255, 255);
-}
-
-a .btn {
-  text-decoration: none;
-  list-style: none;
-}
-
 /* --------------- Products ---------------- */
 
 .products {
