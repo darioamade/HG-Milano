@@ -118,7 +118,8 @@
     <header class="hero">
       <div id="title" class="banner">
         <h1 class="banner-tile">CHLOE J.J</h1>
-        <button class="banner-btn"><a href="/woman.html" >DISCOVER MORE</a></button>
+        <!-- <button class="banner-btn"><a href="/woman.html" >DISCOVER MORE</a></button> -->
+        <a href='/woman.html'><button class="banner-btn">DISCOVER MORE</button></a>
       </div>
     </header>
     <section class="products">
@@ -147,7 +148,7 @@
       <div class="image-2">
         <div class="title-wrap-2">
           <h1 class="title-2">Visit Store</h1>
-          <button class="banner-btn">DISCOVER MORE</button>
+          <a href="new.html"><button class="banner-btn">DISCOVER MORE</button></a>
         </div>
       </div>
     </section>
@@ -167,13 +168,14 @@
           success that the event was repeated in the decades to come. Personal
           relationships, including Clark Gable, John Wayne and Cary Grant.
         </p>
-        <button class="banner-btn">DISCOVER MORE</button>
+        <!-- <a href="new.html"target="hero-2"><button class="banner-btn">DISCOVER MORE</button></a> -->
+        <a href="new.html#zz" ><button class="banner-btn">DISCOVER MORE</button></a>
       </div>
     </section>
     <section class="appointment">
       <div class="book">
-        <a href="contact.html" class="btn">Book your appointment</a>
-        <!-- <button><a href="/contact.html" class="btn">Book your appointment</a></button> -->
+        <a href="account.html" class="btn">Book your appointment</a>
+        <!-- <a href="new.html"><button class="banner-btn">DISCOVER MORE</button></a> -->
       </div>
     </section>
 
@@ -182,7 +184,8 @@
         <div class="title-wrap-4">
           <span class="title-3"> Store Locator </span>
           <!--  <span class="title-3"> Store Locator  <p class="subtitle-2">Discover More</p></span> -->
-          <button class="banner-btn">DISCOVER MORE</button>
+          <!-- <button class="banner-btn">DISCOVER MORE</button> -->
+          <a href="contact.html"><button class="banner-btn">DISCOVER MORE</button></a>
         </div>
       </div>
     </section>
@@ -249,7 +252,9 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js">
+      self.frames['.hero-2'].location.href = 'new.html';
+    </script>
   </body>
 </html>
 

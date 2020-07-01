@@ -860,8 +860,7 @@ a {
 /******************************** SESSION-3 👇*******************************/
 
 .appointment {
-  background-color: var(--color-primary);
-  background-image: url(/images/img/17.jpg);
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.2)),to(rgba(0, 0, 0, 0.2))),url("/images/img/17.jpg") center/cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
