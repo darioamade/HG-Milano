@@ -414,40 +414,107 @@ body {
 /* --------------- End of Hero ---------------- */
 
 /*-----------chloe-collection --------------*/
-.chloe-products {
-    padding: 4rem 0;
+
+.productsx {
+  padding: 4rem 0;
 }
 
-.chole-products {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: 144rem;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 2rem; */
-    display: flex;
-    flex-direction: row;
+.section-title h2 {
+  font-family: condor, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.5vw;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  white-space: pre-wrap;
 }
-.chloe-img {
-    flex: 1;
-    position: relative;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
 
-
+.products-centerx{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 144rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
  
-
-    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
-.chloe-title {
-    flex: 1;
+.img-containerx {
+  width: 50vw;
+  margin: 0 auto;
+  max-width: 144rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.07);
+}
+@media only screen and (max-width:768px) {
+  .img-containerx {
+    width: 90vw;
+  }
+}
 
+.bag-btn {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  background: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: var(--mainSpacing);
+  font-weight: bold;
+  color: var(--mainGrey-1);
+  transition: var(--mainTransition);
+  transform: translateX(101%);
+  cursor: pointer;
+}
 
-    background-color: grey;
+.bag-btn:hover {
+  color: var(--color-black-light);
+}
+
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+
+.img-container:hover .bag-btn {
+  transform: translateX(0);
+}
+
+.product-imgx {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: var(--mainTransition);
+}
+
+.img-containerx:hover .product-img {
+  opacity: 0.5;
+}
+
+.productx h3 {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.productx h4 {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 /*-----------chloe-collection-end --------------*/

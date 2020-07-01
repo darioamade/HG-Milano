@@ -391,7 +391,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.banner-btn  {
+.banner-btn {
   padding: 1.5rem 8rem;
   font-size: 1.6rem;
   background: #fff;
@@ -402,14 +402,11 @@ body {
   letter-spacing: 2px;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  
   text-transform: uppercase;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   transition: var(--mainTransition);
 
 }
-
-
 
 @media only screen and (max-width: 531px) {
   .banner-btn {
@@ -487,7 +484,7 @@ body {
 .img-container {
   position: relative;
   overflow: hidden;
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.07);
 }
 
 .bag-btn {
