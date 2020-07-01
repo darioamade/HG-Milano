@@ -377,14 +377,20 @@ body {
       font-weight: 500;
     }
   }
-  @media only screen and (max-width: 333px) {
+  @media only screen and (max-width: 373px) {
     .banner-btn {
       padding: 1rem 4rem;
       font-size: 1.2rem;
       font-weight: 400;
     }
   }
-
+  @media only screen and (max-width: 329px) {
+    .banner-btn {
+      padding: 1rem 3rem;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
 .banner-btn:focus {
     outline: none;
 }
