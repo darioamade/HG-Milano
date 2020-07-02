@@ -20,15 +20,15 @@
       family=Great+Vibes|Roboto:700,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/gjj4kxq.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gjj4kxq.css">
     <title>HG-Milano- Online Store</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" defer></script>
-    <script src="/script.js" defer></script>
     <link
       rel="shortcut icon"
       type="image/png"
       href="/images/logo/Favicon.png"
     />
-    <link rel="stylesheet" href="/css/collection.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -50,20 +50,20 @@
           </nav>
           <ul>
             <li><a href="/new.html">New In</a></li>
-            <li><a href="new.html">Shoes & Bags</a></li>
+            <li><a href="/colllection.html">Collection</a></li>
+            <li><a href="/new.html">Shoes & Bags</a></li>
             <li><a href="#">Stories</a></li>
             <li><a href="#">Campaign</a></li>
             <li><a href="#">Join Life</a></li>
           </ul>
           <ul class="nav-horizontal">
-            <li><a href="woman.html">Woman</a></li>
-            <li><a href="new.html">Man</a></li>
+            <li><a href="/woman.html">Woman</a></li>
+            <li><a href="/new.html">Man</a></li>
             <li><a href="kids.html">Kids</a></li>
-            <li><a href="index.html">Home</a></li>
           </ul>
           <ul class="nav-bottom">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="account.html">My Account</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/account.html">Return</a></li>
           </ul>
           <!-- <img src="./images/logo/small-1.png" alt="store logo" class="logox" /> -->
         </nav>
@@ -94,9 +94,9 @@
             <svg class="search-icon">
               <use xlink:href="./images/sprite.svg#icon-phone"></use>
             </svg>
-          </div>
+          </div> -->
 
-          <div class="cart-btnx">
+          <!-- <div class="cart-btnx">
             <svg class="search-icon">
               <use xlink:href="./images/sprite.svg#icon-heart-outlined"></use>
             </svg>
@@ -115,36 +115,44 @@
         </div>
       </div>
     </nav>
-    <header class="hero">
-      <div class="hero-imgs">
-        <h2 class="new-in">new in</h2>
-        <div class="item-1">
-          <img src="/images/img/70.jpg" alt="product" class="item--1">
+    <header class="login">
+        <div class="login-area">
+            <div class="login-items">
+                <div class="contact__form">
+                    <form method="post" action="mailer.php" class="from">
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Full Name" id=name required>
+                        <label for="name" class="form">Full Name</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" placeholder="Email address" id=email required>
+                        <label for="email" class="form">Email address</label>
+                    </div>
+                    <div class= "row" >
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>	
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                    <div class="contact-heading">
+                        <div class="heading-2">
+                            Forget password?
+                        </div>
+                    </div>
+                </form>
+                </div>
+
+            </div>
+
         </div>
-      <div class="item-2">
-          <img src="/images/img/71.jpg" alt="product" class="item--2">
-       </div>
-        <div class="item-3">
-          <img src="/images/img/72.jpg" alt="product" class="item--3">
-        </div>
-        <div class="item-4">
-          <img src="/images/img/73.jpg" alt="product" class="item--4">
-        </div>
-         <div class="item-5">
-          <img src="/images/img/74.jpg" alt="product" class="item--5">
-        </div>
-          <div class="item-6">
-          <img src="/images/img/75.jpg" alt="product" class="item--6">
-        </div>
-        <div class="item-7">
-          <img src="/images/img/76.jpg" alt="product" class="item--7">
-        </div>
-      </div>
- 
-      <!-- <div id="title" class="banner"> -->
-        <!-- <h2>Summer Collection</h2> -->
-        <!-- <button class="banner-btn">DISCOVER MORE</button> -->
-      </div>
+   
     </header>
     <section class="products">
       <div class="section-title">
@@ -166,42 +174,13 @@
         </article> -->
         <!-- end of single product -->
       </div>
-    </section>
-    <section class="urban">
-      <div class="image-2">
-        <div class="title-wrap-2">
-          <h1 class="title-2">Visit Store</h1>
-          <button class="banner-btn">DISCOVER MORE</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="factor">
-      <div class="factor-title"></div>
-      <div class="image-3">
-        <span class="title-3"> The Art of Hand crafted</span>
-        <p class="factor-txt">
-          In 1984, founders set off on an important journey called the ‘Grand
-          Tour’. Exclusive trunk shows were staged all over the world, where the
-          new collection was presented to politicians, businessmen and actors.
-          The ‘Grand Tour’ attracted the company’s most important clients,
-          including many Hollywood actors with whom the founders had established
-          personal relationships, including Clark Gable, John Wayne and Cary
-          Grant. The tour cemented global reputation and was met with such
-          success that the event was repeated in the decades to come. Personal
-          relationships, including Clark Gable, John Wayne and Cary Grant. The
-          tour cemented global reputation and was met with such success that the
-          event was repeated in the decades to come.
-        </p>
-        <button class="banner-btn">DISCOVER MORE</button>
-      </div>
-    </section>
+      </section>
     <section class="store">
       <div class="image-4">
         <div class="title-wrap-4">
-          <!-- <span class="title-3"> Store Locator </span> -->
+          <span class="title-3"> Store Locator </span>
           <!--  <span class="title-3"> Store Locator  <p class="subtitle-2">Discover More</p></span> -->
-          <button class="banner-btn">DISCOVER MORE</button>
+          <a href="contact.html"><button class="banner-btn">DISCOVER MORE</button></a>
         </div>
       </div>
     </section>
@@ -271,3 +250,5 @@
     <script src="app.js"></script>
   </body>
 </html>
+
+<!-- https://github.com/darioamade/HG-Milano.git -->
