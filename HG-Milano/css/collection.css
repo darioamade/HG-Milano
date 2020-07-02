@@ -579,17 +579,24 @@ body {
   }
 }
 
-@media only screen and (max-width: 373px) {
+
+@media only screen and (max-width: 428px) {
   .banner-btn {
     padding: 1rem 4rem;
     font-size: 1.2rem;
     font-weight: 400;
   }
 }
-
+@media only screen and (max-width: 371px) {
+  .banner-btn {
+    padding: 1rem 4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
 @media only screen and (max-width: 329px) {
   .banner-btn {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -862,7 +869,9 @@ a {
   justify-content: flex-end;
 }
 
-.title-wrap-2, .title-wrap-3, .title-wrap-4 {
+.title-wrap-2, 
+.title-wrap-3, 
+.title-wrap-4 {
   /*   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -871,7 +880,9 @@ a {
   cursor: pointer;
 }
 
-.title-2, .title-3, .title-4 {
+.title-2,
+ .title-3, 
+ .title-4 {
   padding: 10px;
   font-weight: 500;
   font-family: sans-serif;

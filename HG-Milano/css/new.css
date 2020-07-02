@@ -354,7 +354,8 @@ body {
     font-size: 5.4rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    color: #fff;
 }
 
 .banner-btn {
@@ -373,27 +374,37 @@ body {
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, .1);
     transition: var(--mainTransition);
 }
+
 @media only screen and (max-width: 531px) {
-    .banner-btn {
-      padding: 1.2rem 6rem;
-      font-size: 1.4rem;
-      font-weight: 500;
-    }
+  .banner-btn {
+    padding: 1.2rem 6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
   }
-  @media only screen and (max-width: 373px) {
-    .banner-btn {
-      padding: 1rem 4rem;
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
+}
+
+
+@media only screen and (max-width: 428px) {
+  .banner-btn {
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
   }
-  @media only screen and (max-width: 329px) {
-    .banner-btn {
-      padding: 1rem 3rem;
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
+}
+@media only screen and (max-width: 371px) {
+  .banner-btn {
+    padding: 1rem 4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
   }
+}
+@media only screen and (max-width: 329px) {
+  .banner-btn {
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
 .banner-btn:focus {
     outline: none;
 }
@@ -434,16 +445,20 @@ body {
 /* --------------- appointment ---------------- */
 
 .appointment {
-    background-color: var(--color-primary);
-    background-image: url(/images/img/17.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/images/img/17.jpg") center/cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding:4rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+
 }
 
+#color-black{
+    color: #000;
+}
 
 .btn {
     background-color: var(--color-primary);
