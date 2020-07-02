@@ -10,8 +10,8 @@ gsap.from(".item-4", { duration: 1, x: "-200%",ease: 'power2.in', delay: 3, stag
 //  gsap.from(".item-5", { duration: 1,x: "-200%",rotate: '360deg',ease: 'power2.in', delay: 5, stagger: .5});
  gsap.fromTo(".item-5", { opacity:0, scale:0, rotation:1040}, {duration: 1, delay:4, opacity:1, scale:1, rotation: 0})
 
- gsap.from(".item-6", { duration: 1, y: "-200%",ease: 'power2.in', delay: 4, stagger: .5});
- gsap.from(".item-7", { duration: 1, y: "-200%",ease: 'power2.in', delay: 5, stagger: .5});
+ gsap.from(".item-6", { duration: 1, y: "-300%",ease: 'power2.in', delay: 4, stagger: .5});
+ gsap.from(".item-7", { duration: 1, y: "-300%",ease: 'power2.in', delay: 5, stagger: .5});
  gsap.from(".new-in", { duration: 1, opacity: 1, delay: 7 });
 // const timeline = gsap.timeline({ defaults: { duration: 1 }})
 // timeline.from(".new-in", { opacity: 0, delay: 0 },);
