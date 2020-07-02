@@ -1061,12 +1061,14 @@ footer {
 .login {
   margin: 0 auto;
 }
+
 @media only screen and (max-width:461px) {
   .login {
     padding: 0rem;
     margin: 0 auto;
   }
 }
+
 .login-area {
   min-height: calc(100vh - 60px);
   height: 50vh;
@@ -1074,6 +1076,7 @@ footer {
   padding: 6rem;
   margin: 0 auto;
 }
+
 @media only screen and (max-width:461px) {
   .login-area {
     padding-top: 4rem;
@@ -1081,7 +1084,6 @@ footer {
     padding: 0rem;
     margin-top: 16rem;
     height: 80vh;
-  
   }
 }
 
@@ -1091,8 +1093,7 @@ footer {
   max-width: 360px;
   min-width: 300px;
   margin: 0 auto;
-  margin-top: 8rem ;
-
+  margin-top: 8rem;
   border-radius: 1rem;
   /* box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1); */
   display: flex;
@@ -1101,7 +1102,7 @@ footer {
   align-items: center;
 }
 
-@media only screen and (max-width:461px){
+@media only screen and (max-width:461px) {
   .login-items {
     /* min-height: 490px; */
     width: 100%;
@@ -1148,7 +1149,7 @@ input[type=checkbox] {
   transition: all .3s;
 }
 
-@media only screen and (max-width:411px){
+@media only screen and (max-width:411px) {
   .form__label {
     padding: 1.4rem 4rem;
     font-size: 1.2rem;
@@ -1188,10 +1189,9 @@ input[type=checkbox] {
   margin-top: 2rem;
 }
 
-
 .btn-full:link, .btn-full:visited, input[type=submit] {
-	background-color: #ef6e22;
-	border: 1px solid #e67e22;
+  background-color: #ef6e22;
+  border: 1px solid #e67e22;
   color: #fff;
   margin-right: 15px;
 }
@@ -1200,7 +1200,7 @@ input[type=checkbox] {
   background-color: #cf6d17;
 }
 
-.heading-2 {
+.heading-2, .heading-3 {
   font-weight: 700;
   font-family: 'Playfair Display';
   text-transform: uppercase;
@@ -1209,11 +1209,11 @@ input[type=checkbox] {
   margin-top: 2rem;
   margin-bottom: 4rem;
   word-spacing: 5px;
-	letter-spacing: 1px;
+  letter-spacing: 1px;
   display: block;
   text-align: center;
-
-	color: rgb(109, 103, 99);	
+  color: rgb(109, 103, 99);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -1221,9 +1221,17 @@ input[type=checkbox] {
     font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    word-spacing: 2px;}
+    word-spacing: 2px;
   }
+}
 
-  .col {
-    display: inline;
-  }
+.heading-3 {
+  font-weight: 400;
+  text-decoration: none;
+  word-spacing: 2px;
+  font-size: 1rem;
+}
+
+.col {
+  display: inline;
+}
