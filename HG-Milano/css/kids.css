@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://use.typekit.net/gjj4kxq.css");
+@import url(/css/new.css);
+@import url(/css/style.css);
 :root {
     --primaryColor: #76c1e4;
     --mainWhite: #fff;
@@ -438,7 +440,7 @@ body {
 
 .hero-3 {
     min-height: calc(100vh - 60px);
-    background: url('/images/img/23.jpg') center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/images/img/91.jpg") center/cover no-repeat;
     display: flex;
     /*  align-items: center; */
     justify-content: center;
